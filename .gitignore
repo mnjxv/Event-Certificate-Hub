@@ -1,0 +1,13 @@
+# Ignore local database config containing real passwords
+config.php
+
+# Ignore uploaded PDF files, but keep the folder structure
+uploads/*
+!uploads/.gitkeep
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
